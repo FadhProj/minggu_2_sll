@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1584205420 source:d:\brin\dosen\struktur data\code\minggu_2_sll\main.cpp
+	<iostream>
+
+1760154921 source:d:\brin\dosen\struktur data\code\minggu_2_sll\sll.cpp
+	"sll.h"
+
+1760155471 d:\brin\dosen\struktur data\code\minggu_2_sll\sll.h
+	<string>
+	<iostream>
+
