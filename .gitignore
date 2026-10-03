@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+*.workspace.layout
+*.cbp.layout
+*.depend
+
+bin/
+obj/
+ipch/
+
