@@ -1,41 +1,52 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# =========================
+# C++ Build Files
+# =========================
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
 *.out
-*.app
+*.a
+*.so
+*.dll
+*.dylib
 
-*.workspace.layout
-*.cbp.layout
-*.depend
+# =========================
+# Code::Blocks
+# =========================
+*.layout
 
+# Jika project menggunakan build target
 bin/
 obj/
-ipch/
 
+# =========================
+# Debug / Release
+# =========================
+Debug/
+Release/
+debug/
+release/
+
+# =========================
+# Code::Blocks generated files
+# =========================
+*.depend
+
+# =========================
+# OS generated files
+# =========================
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# =========================
+# IDE temporary files
+# =========================
+.vscode/
+.idea/
